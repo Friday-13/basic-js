@@ -16,8 +16,6 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function repeater(str, options) {
-  // console.log(str);
-  // console.log(options);
   let separator = '+';
   if (options.separator !== undefined) {
     separator = options.separator;
